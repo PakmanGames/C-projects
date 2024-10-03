@@ -7,7 +7,8 @@ then
 else
     git add .
     git status
-    git commit -m $1
-    git tag -a $2 -m $3
+    git commit -m "$1"
+    git tag -a "$2" -m "$3"
+    git log
     git push origin main --tags
 fi
