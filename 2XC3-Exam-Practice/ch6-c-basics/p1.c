@@ -16,4 +16,5 @@ int main() {
     } while (temp > 0);
 
     printf("The largest number entered was %f\n", num);
+    return EXIT_SUCCESS;
 }
